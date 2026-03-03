@@ -12,7 +12,7 @@ void Input()
 }
 
 float Luas(float n, float y){
-    return 0.5*n*y;
+    return (n*y)/2;
 }
 
 void Output(){
