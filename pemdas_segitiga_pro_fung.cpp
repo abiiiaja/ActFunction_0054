@@ -16,6 +16,8 @@ float Luas(float n, float y){
 }
 
 void Output(){
+    cout << "Alas segitiga: " << a << " m" << endl;
+    cout << "Tinggi segitiga: " << t << " m" << endl;
     cout << "Luas segitiga: " << Luas(a, t) << " m^2" << endl;  
 }
 
