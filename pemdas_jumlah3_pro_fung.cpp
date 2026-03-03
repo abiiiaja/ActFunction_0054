@@ -20,6 +20,8 @@ int Jumlah(int a, int b, int c){
 }
 
 void Output(){
+    cout << "Panjang persegi: " << p << " m" << endl;
+    cout << "Lebar persegi: " << l << " m" << endl;
     cout << "Luas persegi: " << Luas(p, l) << " m^2" << endl;  
 }
 
