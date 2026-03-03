@@ -5,9 +5,9 @@ float a,t;
 
 void Input()
 {
-    cout << "Masukkan alas segitiga (dalam cm): ";
+    cout << "Masukkan alas segitiga (dalam m): ";
     cin >> a;
-    cout << "Masukkan tinggi segitiga (dalam cm): ";
+    cout << "Masukkan tinggi segitiga (dalam m): ";
     cin >> t;
 }
 
@@ -16,7 +16,7 @@ float Luas(float n, float y){
 }
 
 void Output(){
-    cout << "Luas segitiga: " << Luas(a, t) << " cm^2" << endl;  
+    cout << "Luas segitiga: " << Luas(a, t) << " m^2" << endl;  
 }
 
 int main(){
