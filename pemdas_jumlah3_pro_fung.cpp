@@ -5,9 +5,9 @@ float p, l;
 
 void Input()
 {
-    cout << "Masukkan Panjang (dalam cm): ";
+    cout << "Masukkan Panjang (dalam m): ";
     cin >> p;
-    cout << "Masukkan Lebar (dalam cm): ";
+    cout << "Masukkan Lebar (dalam m): ";
     cin >> l;
 }
 
@@ -20,7 +20,7 @@ int Jumlah(int a, int b, int c){
 }
 
 void Output(){
-    cout << "Luas persegi: " << Luas(p, l) << " cm^2" << endl;  
+    cout << "Luas persegi: " << Luas(p, l) << " m^2" << endl;  
 }
 
 int main(){
