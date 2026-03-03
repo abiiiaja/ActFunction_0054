@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
  
-float p, l;
+int p, l;
 
 void Input()
 {
@@ -11,7 +11,7 @@ void Input()
     cin >> l;
 }
 
-float Luas(float c, float n){
+int Luas(int c, int n){
     return c*n;
 }
 
